@@ -6,7 +6,7 @@ The aim of the project is to provide a human-in-the-loop re-weighting process fo
 *Das, G., Ray, S., & Wilson, C. (2006). Feature re-weighting in content-based image retrieval. In Image and Video Retrieval: 5th International Conference, CIVR 2006, Tempe, AZ, USA, July 13-15, 2006.*
 
 Main concepts of the paper:
-- use of the previous neural network as feature extractor;
+- use of the previous neural network (DenseNet201) as feature extractor;
 - feature normalization using 3 time standard deviation and forcing each range in the interval [0,1];
 - use of weighted Minkowski distance as similarity measure;
 - update of the query results according to user preferences.
